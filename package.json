@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "ganache-cli -f https://bsc-dataseed1.defibit.io -g 5000000000",
+    "migrate": "truffle migrate",
+    "profile": "shx rm -rf coverage && truffle test; istanbul report html && open-cli coverage/index.html"
+  },
+  "dependencies": {
+    "@0x/sol-profiler": "^4.1.23",
+    "ganache-cli": "^6.12.2",
+    "istanbul": "^0.4.5",
+    "open-cli": "^6.0.1",
+    "shx": "^0.3.3",
+    "truffle": "^5.3.2",
+    "web3-provider-engine": "^16.0.1"
+  }
+}
