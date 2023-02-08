@@ -11,7 +11,7 @@ import {
     TraceInfo,
     TraceInfoSubprovider,
     utils,
-} from '@0x/sol-tracing-utils';
+} from '@0t/sol-tracing-utils';
 import { logUtils } from '@0x/utils';
 import { stripHexPrefix } from 'ethereumjs-util';
 import * as _ from 'lodash';

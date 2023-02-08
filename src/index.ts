@@ -5,7 +5,7 @@ export {
     ContractData,
     SourceCodes,
     Sources,
-} from '@0x/sol-tracing-utils';
+} from '@0t/sol-tracing-utils';
 
 // HACK: ProfilerSubprovider is a hacky way to do profiling using coverage tools. Not production ready
 export { ProfilerSubprovider } from './profiler_subprovider';
