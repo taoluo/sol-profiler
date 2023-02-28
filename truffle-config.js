@@ -3,9 +3,9 @@ const WebsocketSubprovider = require("web3-provider-engine/subproviders/websocke
 const {
   ProfilerSubprovider,
   TruffleArtifactAdapter,
-} = require("@0x/sol-profiler");
+} = require("@0t/sol-profiler");
 
-const solcVersion = "0.7.6+commit.7338295f";
+const solcVersion = "0.7.5+commit.eb77ed08";
 
 global.profilerSubprovider = new ProfilerSubprovider(
   new TruffleArtifactAdapter("", solcVersion),

@@ -5,7 +5,9 @@
     "profile": "shx rm -rf coverage && truffle test; istanbul report html && open-cli coverage/index.html"
   },
   "dependencies": {
-    "@0x/sol-profiler": "^4.1.23",
+    "@0t/sol-profiler": "https://github.com/taoluo/0x_tools/releases/download/dep2/0t-sol-profiler-4.1.37.tgz",
+
+    "@openzeppelin/test-helpers": "^0.5.16",
     "ganache-cli": "^6.12.2",
     "istanbul": "^0.4.5",
     "open-cli": "^6.0.1",
